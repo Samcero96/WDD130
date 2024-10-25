@@ -46,15 +46,13 @@ article p {
 .hero{
     width: 100%;
     height: auto;
+    padding: 35px;
     position: relative;
     height: auto;   
 }
- img {
-    
-
+.hero img{
+    background-size: cover;
 }
-
-
 .hero div {
     width: 100px;
     border: var(--primary-color);
@@ -68,8 +66,112 @@ article p {
 * {
     box-sizing: border-box;
 
+
 }
 
 footer {
+    margin: 20px;
+    padding: 15px;
+    align-items:center;
+    border-bottom: 1px solid #080808;
+}
+header{
+    margin: 2px;
+    padding: 2px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    padding: 1px;
+    font-size: larger;
+    background-color: #fae04c;
+    display: grid;
+    align-items:center;
+    grid-template-columns: 100px 1px 1px;
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    
+}
+nav{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.navigation li {
+    flex: 1 1 100%;
+}
+.navigation a {
+    display: table;
+    color: rgb(41, 103, 155);
+    padding: 60px;
+    width: 220px;
+    float:right;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+
+}
+.navigation ul li a {
+    display: table-cell;
+    text-transform: capitalize;
+}
+.navigation a:hover {
+    color: rgba(0, 0, 0, 0.856);
+    font-weight: 500;
+    text-decoration: underline;
+    
+}
+body {
+    font-family: 'montserrat';
+}
+section {
+    padding: 25px;
+    margin: 1px;
+    position: relative;
+    border-bottom: 1px #080808;
+    border-bottom: 1px #000000;
+}
+ section{
+    text-align: center;
+}
+.history img {
+    display:flexbox
+
+
+}
+.history img {
+    max-width: 100%;
+    height: auto;
+}
+.history p {
+    display: block;   
+}
+.adventure img{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 3;
+    width: 250px;
+    padding: 10px; 
+}
+footer p {
+    color: #000;
+    display: block;
+    margin-top: 30px;
+
+}
+.social-links{
+    display: flex;
+    grid-template-rows: auto 40px;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    padding: 1em;
+    margin-left: 700px;
+    margin-bottom: 2px;
 
 }

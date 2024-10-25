@@ -107,6 +107,11 @@ aside h2 {
     position: absolute;
    left: 150px;
 }
+.navigation a:hover {
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}
 .grid {
     display: grid;
     align-items: center;
