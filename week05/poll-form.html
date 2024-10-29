@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Ayanleke Samuel | Form - user Poll </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="full-name">Full Name</label>
+                <input type="text" name="full-name" id="full-name" >
+                <label for="username">Email</label>
+                <input type="email" name="username" id="username">
+            </fieldset>
+            <fieldset>
+                <legend>Question</legend>
+                <label for="browser">What is your favorite Internet browser</label>
+                <select name="browser" id="browser">
+                <option value="operamini">Opera Mini</option>
+                <option value="firefox">mozilla firefox</option>
+                <option value="edge">Edge</option>
+                <option value="chrome">Chrome</option>
+                <option value="other">Other</option>
+                </select>
+                <label for="pet">Did you have a household  pet? </label>
+                <input type="checkbox"  name="pet" id="pet">
+                <label for="feedback">List the place you live</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Ile-Ife Osun, State NIgeria"></textarea>
+                
+            </fieldset>
+            <button type="submit">Submit poll</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Ayanleke Samuel</p>
+    </footer>
+</body>
+</html>
