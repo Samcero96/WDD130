@@ -16,8 +16,8 @@ article img{
     bottom: 200px; 
 }
 form {
-    width: 60%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 400px;
     margin-top: 60px;
     
 
@@ -34,6 +34,40 @@ input, textarea{
     border: 1px solid #6d9dc5;
     color:#000;
     font-size: 15px;
+}
+input[type=radio], input[type=checkbox] {
+    transform: scale(2);
+    margin-top: 30px;
+    margin-right: 3em;
+    
+}
+.map {
+    max-width: 70%;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.employee{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    flex-direction: row;
+}
+.employee img{
+    width: 120px;
+    height: 110px;
+    max-height: 100%;
+    
+}
+.employee h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-self: center;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 350px;
+    width: 300px;
+    padding: 20px;
+    color: var(--primary-color);
 }
 label{
     height: 100%;
