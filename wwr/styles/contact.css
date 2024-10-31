@@ -15,6 +15,13 @@ article img{
     position:absolute;
     bottom: 200px; 
 }
+.quest{
+    position: relative;
+    display: inline;
+}
+.quest input{
+    position: relative;
+}
 form {
     width: 50%;
     max-width: 400px;
@@ -36,9 +43,10 @@ input, textarea{
     font-size: 15px;
 }
 input[type=radio], input[type=checkbox] {
-    transform: scale(2);
+    display: flex;
     margin-top: 30px;
-    margin-right: 3em;
+    margin-right: 100px;
+    position: relative;
     
 }
 .map {
@@ -105,6 +113,7 @@ textarea:valid~label{
     top:-35px
 
 }
+
 .row {
     display: flex;
     align-items: center;
