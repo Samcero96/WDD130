@@ -147,11 +147,7 @@ section {
  section{
     text-align: center; 
 }
-.history img {
-    display:flexbox
 
-
-}
 .history img {
     max-width: 100%;
     height: auto;
@@ -161,7 +157,7 @@ section {
 }
 .adventure{ 
     display: flex;
-     position:relative; 
+    position:relative; 
     flex-direction: row;
     max-width: 50%;
     padding: 15px; 
@@ -219,3 +215,4 @@ figcaption {
     margin-right: 5px;
     width: 120px;
 }
+
